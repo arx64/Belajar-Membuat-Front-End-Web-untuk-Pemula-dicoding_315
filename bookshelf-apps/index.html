@@ -42,7 +42,7 @@
     </section>
 
     <section class="search_section">
-      <h2>Cari Buku (Opsional)</h2>
+      <h2>Cari Buku</h2>
       <form id="searchBook">
         <label for="searchBookTitle">Judul</label>
         <input id="searchBookTitle" type="text" minlength="1">
@@ -60,14 +60,38 @@
     <section class="book_shelf">
       <h2>Belum selesai dibaca</h3>
 
-        <div id="incompleteBookshelfList" class="book_list">
-        </div>
+        <div id="incompleteBookshelfList" class="book_list"></div>
     </section>
 
     <section class="book_shelf">
       <h2>Selesai dibaca</h2>
 
       <div id="completeBookshelfList" class="book_list">
+      </div>
+    </section>
+
+    <section class="book_shelf" id="editBookForm" hidden>
+      <h2>Edit Buku</h2>
+
+      <div class="book_list">
+                  <form id="editForm">
+            <div id="editBook">
+              <h2>Edit Buku</h2>
+              <label for="editBookTitle">Judul: </label>
+              <input id="editBookTitle" type="text">
+
+              <label for="editBookAuthor">Penulis: </label>
+              <input id="editBookAuthor" type="text">
+
+              <label for="editBookYear">Tahun: </label>
+              <input id="editBookYear" type="text">
+              <div class="input_inline">
+                <label for="inputBookIsComplete">Selesai dibaca</label>
+                <input id="editBookIsComplete" type="checkbox">
+              </div>
+              <button>Edit data</button>
+            </div>
+          </form>
       </div>
     </section>
   </main>

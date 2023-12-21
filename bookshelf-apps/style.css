@@ -180,3 +180,53 @@ main {
     background-color: darkred;
     color: white;
 }
+
+.book_shelf > .book_list > .book_item > .action > .orange {
+    background-color: darkorange;
+    color: white;
+}
+
+.book_shelf > form {
+    padding: 16px;
+}
+
+form > #editBook > h2 {
+    color: cornflowerblue;
+    text-align: center;
+}
+
+form > #editBook > label {
+    margin: 1% 0 1% 0;
+}
+
+form > #editBook {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+form > #editBook > button {
+    background-color: cornflowerblue;
+    color: white;
+    /* border: 0; */
+    /* margin-top: 4%; */
+    margin-bottom: 0.1%;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#editBook > div {
+display: flex;
+align-items: center;
+margin: 12px 0;
+/* color: cornflowerblue; */
+}
+
+#editBookIsComplete {
+    margin-left: 10px;
+}
