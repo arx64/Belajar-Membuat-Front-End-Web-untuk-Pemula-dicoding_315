@@ -185,6 +185,7 @@ main {
     background-color: darkorange;
     color: white;
 }
+<<<<<<< HEAD
 
 .book_shelf > form {
     padding: 16px;
@@ -230,3 +231,5 @@ margin: 12px 0;
 #editBookIsComplete {
     margin-left: 10px;
 }
+=======
+>>>>>>> 60b27d60ef380d781c763eb0ad4b5cdbc8f2b061
